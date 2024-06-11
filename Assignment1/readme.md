@@ -25,4 +25,7 @@ Java does not have built-in support for value types like some other programming 
 - **Performance**: Faster because they are stored on the stack and do not require complex memory management.
 
 ### Code Examples
-``` asdasd ```
+``` int a = 5;
+int b = a; // b gets a copy of the value of a
+b = 10;    // Changing b does not affect a
+System.out.println(a); // Output: 5 ```
