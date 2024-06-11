@@ -36,8 +36,6 @@ public class Main {
         System.out.println("char: " + myLetter);
         boolean myBool = true;       // Boolean
         System.out.println("bool: " + myBool);
-        String myText = "Hello World!";     // String
-        System.out.println("string: " + myText);
     }
 }
 ```
@@ -48,5 +46,56 @@ int: 5
 float: 5.99
 char: h
 bool: true
-string: Hello World!
+```
+
+## References types
+Reference types are data types that store a reference (memory address) to the actual object in the heap. When you assign a reference to another variable, only the reference is copied, not the object itself.
+
+### Examples
+
+- string
+- array
+- class
+- objects created from custom classes
+
+### Characteristics
+
+- **Memory Allocation**: The reference is stored on the stack, but the actual object is stored in the heap.
+- **Copying**: When a reference type is assigned to another variable, only the reference is copied. Both variables point to the same object in memory.
+- **Performance**: More complex due to heap memory management and garbage collection.
+
+### Code Examples
+```
+class MyClass {
+    int value;
+
+}
+
+public class App {
+    public static void main(String[] args) {
+        MyClass obj1 = new MyClass();
+        obj1.value = 5;
+        obj1.value2 = 3.45;
+        obj1.bool = true;
+        System.out.println(obj1.value);
+        System.out.println(obj1.value2);
+        System.out.println(obj1.bool);
+        MyClass obj2 = obj1;    // obj2 gets the same reference as obj1
+        obj2.value2 = 5.5;      // Changing the value2 through obj2 also changes obj1
+        obj2.value = 10;        // Changing the value through obj2 also changes obj1
+        System.out.println(obj1.value);
+        System.out.println(obj1.value2);
+        System.out.println(obj1.bool);
+    }
+}
+```
+
+Output:
+```
+5
+3.45
+true
+10
+5.5
+true
 ```
