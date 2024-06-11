@@ -9,7 +9,11 @@ Object-Oriented Programming (OOP) principles are fundamental concepts that guide
 ## Encapsulation
 
 Encapsulation is when data and the methods that work with the data are bundled together into a single unit called a class. It restricts access to some of the object’s components and prevents the accidental modification of data.
-![alt text](https://github.com/Zaniiiii/Fpt-Assignment1/blob/main/Assignment2/images/encapsulation.png?raw=true)
+
+<p align="center">
+<img src="https://github.com/Zaniiiii/Fpt-Assignment1/blob/main/Assignment2/images/encapsulation.png?raw=true" width="500">
+</p>
+
 
 In Java, you can use access modifiers (private, protected, public) to control the visibility of variables and methods. For example:
 ```
@@ -41,7 +45,11 @@ public class Person {
 
 ## Inheritance
 Inheritance is a mechanism that allows a class to inherit properties and behaviors from another class, establishing a relationship between them. The class that is inherited from is called the superclass (or base class), and the class that inherits is called the subclass (or derived class).
-![alt text](https://github.com/Zaniiiii/Fpt-Assignment1/blob/main/Assignment2/images/inheritance.png?raw=true)
+
+<p align="center">
+<img src="https://github.com/Zaniiiii/Fpt-Assignment1/blob/main/Assignment2/images/inheritance.png?raw=true" width="500">
+</p>
+
 
 To implement inheritance in java, use the extends keyword to define a subclass, for example:
 ```
@@ -76,7 +84,10 @@ The dog barks.
 
 ## Polymorphism
 Polymorphism allows objects of different classes to be treated as objects of a common superclass. It provides the ability to call the same method on different objects and have each of them respond in their own way.
-![alt text](https://github.com/Zaniiiii/Fpt-Assignment1/blob/main/Assignment2/images/polymorphism.png?raw=true)
+
+<p align="center">
+<img src="https://github.com/Zaniiiii/Fpt-Assignment1/blob/main/Assignment2/images/polymorphism.png?raw=true" width="500">
+</p>
 
 To implement polymorphism in java, you can use Overriding, for example:
 ```
@@ -122,7 +133,10 @@ Cat meows.
 
 ## Abstraction
 Abstraction is the principle of hiding the complex implementation details and showing only the essential features of the object.
-![alt text](https://github.com/Zaniiiii/Fpt-Assignment1/blob/main/Assignment2/images/abstraction.png?raw=true)
+
+<p align="center">
+<img src="https://github.com/Zaniiiii/Fpt-Assignment1/blob/main/Assignment2/images/abstraction.png?raw=true" width="500">
+</p>
 
 To implement abstraction in java use abstract classes and interfaces, for example:
 ```
