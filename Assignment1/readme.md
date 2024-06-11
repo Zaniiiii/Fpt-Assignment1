@@ -1,6 +1,6 @@
 
 # Value types and reference types in Java
-![alt text](https://github.com/Zaniiiii/Fpt-Assignment1/blob/main/Assignment1/images/valueVSreferences.png?raw=true)
+![alt text](https://github.com/Zaniiiii/Fpt-Assignment1/blob/main/Assignment1/images/valueVSreferences.png?raw=true | width=100)
 
 In Java, there are two main types of data: value types and reference types. Here is an explanation of each:
 
