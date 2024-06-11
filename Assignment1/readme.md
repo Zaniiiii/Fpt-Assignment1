@@ -36,7 +36,17 @@ public class Main {
         System.out.println("char: " + myLetter);
         boolean myBool = true;       // Boolean
         System.out.println("bool: " + myBool);
-        String myText = "Hello";     // String
+        String myText = "Hello World!";     // String
         System.out.println("string: " + myText);
     }
-} ```
+}
+```
+
+Output:
+```
+int: 5
+float: 5.99
+char: h
+bool: true
+string: Hello World!
+```
