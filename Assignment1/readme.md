@@ -25,8 +25,9 @@ Java does not have built-in support for value types like some other programming 
 - **Performance**: Faster because they are stored on the stack and do not require complex memory management.
 
 ### Code Examples
-``` public class Main {
-    public static void main(String[] args) throws Exception {
+```
+public class Main {
+    public static void main(String[] args){
         int myNum = 5;               // Integer (whole number)
         System.out.println("int: " + myNum);
         float myFloatNum = 5.99f;    // Floating point number
