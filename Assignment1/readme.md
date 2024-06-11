@@ -22,7 +22,7 @@ Java does not have built-in support for value types like some other programming 
 
 ### Characteristics
 
-- Memory Allocation: Stored on the stack.
-- Copying: When a value type is assigned to another variable, the value is copied. Both variables hold the same value, but they are independent of each other.
-- Performance: Faster because they are stored on the stack and do not require complex memory management.
+- *Memory Allocation*: Stored on the stack.
+- *Copying*: When a value type is assigned to another variable, the value is copied. Both variables hold the same value, but they are independent of each other.
+- *Performance*: Faster because they are stored on the stack and do not require complex memory management.
 
